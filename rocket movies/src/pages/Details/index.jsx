@@ -6,8 +6,6 @@ export function Details () {
   return (
     <Container>
         <Header /> 
-      < Button title="Enter"  />
-     
     </Container>
   )
 }
