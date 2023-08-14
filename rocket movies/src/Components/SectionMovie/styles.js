@@ -3,7 +3,7 @@ import styled  from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100px;
+  height: 90px;
 
   display: flex;
   align-items: center;
@@ -13,8 +13,11 @@ export const Container = styled.div`
 
   padding: 0 95px;
 
+  
+
   > button {
   width: 160px;
   height: 40px;
+  margin-bottom: 15px;
   }
 `;
