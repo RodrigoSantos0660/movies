@@ -13,8 +13,6 @@ export const Container = styled.div`
 
   padding: 0 95px;
 
-  
-
   > button {
   width: 160px;
   height: 40px;

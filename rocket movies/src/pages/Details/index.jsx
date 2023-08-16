@@ -18,10 +18,65 @@ export function Details () {
           <FiStar /> 
           <FiStar />
          </ Icon>
+          <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste, possimus magni velit tempora ratione vitae culpa iusto nesciunt assumenda autem similique nemo ad fugit veritatis non veniam officia aut?
+          </p>
+         <strong>
+          <Tags title="great" />
+          <Tags title="Good" />
+         </strong>
+        </Section>
+
+        <Section title="Interestelar">
+         < Icon >
+          <FiStar />
+          <FiStar />
+          <FiStar />
+          <FiStar /> 
+          <FiStar />
+         </ Icon>
          <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste, possimus magni velit tempora ratione vitae culpa iusto nesciunt assumenda autem similique nemo ad fugit veritatis non veniam officia aut?
          </p>
-         <Tags tilte="great" />
+         <strong>
+         <Tags title="great" />
+         <Tags title="Good" />
+         </strong>
+        </Section>
+
+        <Section title="Interestelar">
+         < Icon >
+          <FiStar />
+          <FiStar />
+          <FiStar />
+          <FiStar /> 
+          <FiStar />
+         </ Icon>
+         <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste, possimus magni velit tempora ratione vitae culpa iusto nesciunt assumenda autem similique nemo ad fugit veritatis non veniam officia aut?
+         </p>
+         <strong>
+         <Tags title="great" />
+         <Tags title="Good" />
+         </strong>
+        </Section>
+
+      
+        <Section title="Interestelar">
+         < Icon >
+          <FiStar />
+          <FiStar />
+          <FiStar />
+          <FiStar /> 
+          <FiStar />
+         </ Icon>
+         <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste, possimus magni velit tempora ratione vitae culpa iusto nesciunt assumenda autem similique nemo ad fugit veritatis non veniam officia aut?
+         </p>
+         <strong>
+         <Tags title="great" />
+         <Tags title="Good" />
+         </strong>
         </Section>
     </Container>
   );

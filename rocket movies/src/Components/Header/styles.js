@@ -13,7 +13,7 @@ export const Container = styled.header`
   align-items: center;
  
   padding: 0 90px;
- background-color: ${({ theme })=> theme.BACKGROUND_900};
+  background-color: ${({ theme })=> theme.BACKGROUND_900};
 `;
 
 export const Profile = styled.div`

@@ -5,7 +5,8 @@ export const Container = styled.section`
 
   margin-bottom: 24px;
   padding:24px 90px;
-  border: 1px solid white;
 
-
+> strong {
+ display: flex;
+  }
 `;
