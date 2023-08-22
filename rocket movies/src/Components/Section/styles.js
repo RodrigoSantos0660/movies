@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  width: 100%;
+  width: 90%;
 
   margin-bottom: 24px;
-  padding:24px 90px;
+  padding:20px 24px;
+  background-color: ${({ theme}) => theme.COLORS.GRAY_300} ;
+  border-radius: 10px;
 
-> strong {
+  > strong {
  display: flex;
   }
 `;

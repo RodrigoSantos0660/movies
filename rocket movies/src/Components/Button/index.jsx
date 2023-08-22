@@ -1,5 +1,6 @@
 import { Container } from "./Styles";
 
+
 export function Button ({ title, loading = false, ...rest}){
   return(
   <Container 
@@ -7,7 +8,6 @@ export function Button ({ title, loading = false, ...rest}){
    disabled = {loading}
    {...rest} 
    >
-
     { loading ? "loading" :title}
   </Container>
  );

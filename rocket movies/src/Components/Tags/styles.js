@@ -6,8 +6,7 @@ export const Container = styled.span`
  padding: 5px 14px;
  border-radius: 5px;
  margin-right: 6px;
- color:orange;
- background-color: aqua;
+ background-color: ${({ theme}) => theme.COLORS.BACKGROUND_800} ;
  max-width: fit-content;
  margin-top: 6px;
 `;
