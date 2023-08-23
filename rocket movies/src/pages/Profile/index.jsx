@@ -1,22 +1,41 @@
-import { Container,LineUp,DarkLine } from "./styles"
+import { Container, LineUp, DarkLine } from "./styles"
 import { Input } from "../../Components/Input"
-import { Button } from"../../Components/Button"
-export function PageProfile(){
-  return(
+import {FiCamera } from'react-icons/fi'
+import { Button } from "../../Components/Button"
+import { Ic } from "../../Components/Ic"
+export function PageProfile() {
+  return (
     <Container>
       <LineUp>
-       
+
+
       </LineUp>
-      <img src="https://github.com/RodrigoSantos0660.png"
-       alt= "picture of user" />  
+      
       <DarkLine >
-      <Input type="text" placeholder="Name"/>
-      <Input type="email"placeholder="Type your e-mail" />
-      <Input type="password"placeholder="Current Password" />
-      <Input type="password" placeholder="New Password"/>
-      <Button title="save" />
+      <figure>
+        <img src="https://github.com/RodrigoSantos0660.png"
+          alt="picture of user" />
+          <Ic>
+            <FiCamera />
+          </Ic>
+      </figure>
+      
+        <section class="separador">
+          <Input type="text" placeholder="Name" />
+           <Ic><FiCamera /></Ic>
+          <Input type="email" placeholder="Type your e-mail" />
+          <Ic> <FiCamera /> </Ic>
+        </section>
+        <section class="separador">
+         <Input type="password" placeholder="Current Password" />
+          <Ic> <FiCamera /> </Ic>
+         <Input type="password" placeholder="New Password" />
+          <Ic> <FiCamera /> </Ic>
+        </section>
+        
+        <Button title="save" />
       </DarkLine>
-    </Container>   
- )
+    </Container>
+  )
 }
 

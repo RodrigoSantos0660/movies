@@ -7,14 +7,6 @@ export const Container = styled.div`
  "light_band"
  "dark_band";
 
- > img {
- width: 150px;
- border-radius: 50%;
- margin-bottom: 30px;
- position: absolute;
- top:60px;
- left: 45%;
-  }
 `;
 
 export const LineUp = styled.div`
@@ -29,4 +21,41 @@ export const DarkLine = styled.div`
  max-width: 250px;
  margin-left:42%;
  margin-top: 120px;
+ position:relative;
+
+
+ > figure img {
+  position: absolute;
+ left: 130px;
+ width: 150px;
+ border-radius: 50%;
+ margin-bottom: 30px;
+ top:-190px;
+ left: 15%;
+  }
+  > figure button{
+ 
+   position: absolute;
+   left: 150px;
+   top: -90px;
+   background-color: whitesmoke;
+   width: 40px;
+   height: 40px;
+   padding: 8px;
+   border-radius: 50%;
+   color: gray;
+  }
+  
+
+ >  button{
+    height: 40px;
+  }
+> section {
+    margin-bottom: 15px;
+  }
+  >section input {
+    padding-left: 40px;
+  }
+
+ 
 `;

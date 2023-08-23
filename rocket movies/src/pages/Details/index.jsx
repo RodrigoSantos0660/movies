@@ -1,9 +1,10 @@
-import { Container,Icon} from './styles'
+import { Container} from './styles'
 import { Header } from '../../Components/Header'
 import { SectionMovie } from '../../Components/SectionMovie';
 import { Section } from '../../Components/Section'
 import { FiStar } from 'react-icons/fi'
 import { Tags } from '../../Components/Tags';
+import { Icon } from "../../Components/Icon"
 
 export function Details () {
   return (

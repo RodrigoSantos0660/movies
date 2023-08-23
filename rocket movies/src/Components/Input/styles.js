@@ -17,15 +17,15 @@ export const Container = styled.div`
   height: 36px;
   width : 100%;
   padding: 12px;
+
  
 
   color: ${({ theme }) => theme.COLORS.WHITE};
   background-color: transparent;
   border: 0;
 
-  &:placeholder {
+  &::placeholder {
   color: aqua;
   }
-
  }
 `;
