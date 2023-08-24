@@ -12,7 +12,28 @@ export const Container = styled.div`
 export const LineUp = styled.div`
  grid-area: "light_band";
  width: 100%;
- background-color: white;
+ border-bottom: 1px solid aqua;
+ background-color: gray;
+
+ display: flex;
+
+ align-items:center;
+ justify-content: flex-start;
+ padding-left: 49px;
+ a  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font: 14px;
+ }
+  
+  a svg {
+  color: white;
+  width: 30px;
+  height: 30px;
+ 
+}
 
 `;
 export const DarkLine = styled.div`
@@ -38,24 +59,35 @@ export const DarkLine = styled.div`
    position: absolute;
    left: 150px;
    top: -90px;
-   background-color: whitesmoke;
+   background-color: white;
    width: 40px;
    height: 40px;
    padding: 8px;
    border-radius: 50%;
    color: gray;
+
   }
   
-
+ .icon input{
+  padding-left: 30px;
+  
+ }
  >  button{
     height: 40px;
   }
 > section {
     margin-bottom: 15px;
   }
-  >section input {
-    padding-left: 40px;
+  .icon {
+    position: relative;
   }
-
+  .icon button{
+    position: absolute;
+    top: 3px;
+    border:none;
+    background-color: transparent;
+    color: white;
+    cursor: initial;
+  }
  
 `;
