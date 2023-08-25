@@ -19,7 +19,7 @@ export const LineUp = styled.div`
 
  align-items:center;
  justify-content: flex-start;
- padding-left: 49px;
+ padding-left: px;
  a  {
   display: flex;
   align-items: center;

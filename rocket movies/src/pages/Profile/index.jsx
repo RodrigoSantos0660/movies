@@ -42,7 +42,6 @@ export function PageProfile() {
           </div>
         </section>
         <Button title="save" />
-        <h1>passinho developer dont move it</h1>
       </DarkLine>
     </Container>
   )

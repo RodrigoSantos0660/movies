@@ -14,7 +14,21 @@ export const Container =  styled.div`
   > header {
    position: fixed;
    top: 0;
+  }
+  section button  {
+   display: flex;
+   position: relative;
+   width: 20px;
+   height: 30px;
+   color: white;   
+  }
+  .Icons_likes{
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   margin-left: -2px;
    
+ 
   }
 `;
 

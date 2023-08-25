@@ -4,7 +4,7 @@ import { SectionMovie } from '../../Components/SectionMovie';
 import { Section } from '../../Components/Section'
 import { FiStar } from 'react-icons/fi'
 import { Tags } from '../../Components/Tags';
-import { Icon } from "../../Components/Icon"
+import { Ic} from "../../Components/Ic"
 
 export function Details () {
   return (
@@ -12,13 +12,13 @@ export function Details () {
         <Header /> 
         <SectionMovie />
         <Section title="Interestelar">
-         < Icon >
-          <FiStar />
-          <FiStar />
-          <FiStar />
-          <FiStar /> 
-          <FiStar />
-         </ Icon>
+        <div class="Icons_likes"> 
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         </div> 
           <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste, possimus magni velit tempora ratione vitae culpa iusto nesciunt assumenda autem similique nemo ad fugit veritatis non veniam officia aut?
           </p>
@@ -29,13 +29,13 @@ export function Details () {
         </Section>
 
         <Section title="Interestelar">
-         < Icon >
-          <FiStar />
-          <FiStar />
-          <FiStar />
-          <FiStar /> 
-          <FiStar />
-         </ Icon>
+        <div class="Icons_likes"> 
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         </div> 
          <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste, possimus magni velit tempora ratione vitae culpa iusto nesciunt assumenda autem similique nemo ad fugit veritatis non veniam officia aut?
          </p>
@@ -46,13 +46,13 @@ export function Details () {
         </Section>
 
         <Section title="Interestelar">
-         < Icon >
-          <FiStar />
-          <FiStar />
-          <FiStar />
-          <FiStar /> 
-          <FiStar />
-         </ Icon>
+        <div class="Icons_likes"> 
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         </div> 
          <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste, possimus magni velit tempora ratione vitae culpa iusto nesciunt assumenda autem similique nemo ad fugit veritatis non veniam officia aut?
          </p>
@@ -64,13 +64,13 @@ export function Details () {
 
       
         <Section title="Interestelar">
-         < Icon >
-          <FiStar />
-          <FiStar />
-          <FiStar />
-          <FiStar /> 
-          <FiStar />
-         </ Icon>
+        <div class="Icons_likes"> 
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         < Ic ><FiStar />  </ Ic>
+         </div> 
          <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste, possimus magni velit tempora ratione vitae culpa iusto nesciunt assumenda autem similique nemo ad fugit veritatis non veniam officia aut?
          </p>
