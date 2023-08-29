@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import backgroundImg from '../../assets/imglogin.png';
+
+
 export const Container = styled.section`
  
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: "Date" "picture";
-
-
 
   @media (max-width:500px) {
     .date, section, {
