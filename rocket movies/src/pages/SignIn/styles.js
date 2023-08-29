@@ -8,6 +8,40 @@ export const Container = styled.section`
   grid-template-areas: "Date" "picture";
 
 
+
+  @media (max-width:500px) {
+    .date, section, {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    figure{
+      display: none;
+     }
+     .date section button {
+      left: -1px;
+    }
+    
+    :nth-child(6){
+   
+     margin-left:-20px;
+     margin-top: 40px;
+ 
+    ;
+    }
+     section input  {
+  
+     width: 260px;
+     margin: 0;
+     width: 270;
+
+    }
+    nav{
+     margin-left: -30px;
+    }
+    
+  }
+
   .date{
     grid-area: "Date";
     display: flex;
@@ -71,11 +105,11 @@ export const Container = styled.section`
   
   }
 `;
+
 export const Background = styled.div`
   flex: 1;
   background: url(${backgroundImg}) no-repeat center ;
   background-size: cover;
   width: 100%;
   height: 100%;
- 
   `;
