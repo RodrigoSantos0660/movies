@@ -5,11 +5,16 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 4px solid red;
+  
+  width: 100%;
+  height: 100vh;
 
   .date{
-   width: 50%;
+   
    height: 100vh;
+   width:fit-content;
+   min-width: 300px;
+   max-width: 500px;
 
    display: flex;
    align-items: flex-start;
@@ -39,8 +44,15 @@ export const Container = styled.div`
   
   }
   nav {
+   display: flex;
    margin: 0 auto;
    margin-top: 30px;
+   position: relative;
+  }
+  nav button{
+   color: white;
+   left: -29px;
+   top:-3px
   }
   a {
    color: white;
@@ -50,7 +62,7 @@ export const Container = styled.div`
    font-size: 35px;
   }
   p{
-   font-size:14px;
+   font-size:12px;
   }
   h2{
    margin: 30px 0px;
@@ -63,7 +75,7 @@ export const Container = styled.div`
   .picture{
    width: 50%;
    height: 100vh;
-   border: 1px solid white;
+ 
    }
   }
 
@@ -74,10 +86,8 @@ export const Container = styled.div`
    .date{
     flex-basis: fit-content;
     width: 100vh;
-    border: 1px solid yellow;
+    
   }
-
-
 `;
 
 export const Background = styled.div`

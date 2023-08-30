@@ -2,7 +2,7 @@ import { Container, Background } from './styles';
 import { Button } from '../../Components/Button'
 import { Input } from '../../Components/Input'
 import { Ic } from'../../Components/Ic'
-import { AiOutlineUnlock,AiOutlineMail,AiOutlineUser } from'react-icons/ai';
+import { AiOutlineUnlock,AiOutlineMail,AiOutlineUser,AiOutlineArrowLeft } from'react-icons/ai';
 
 export function SingUp() {
   return (
@@ -31,7 +31,10 @@ export function SingUp() {
           </section>
           <Button title="Enter" />
           <nav>
-            <a href="#">Create your Account</a>
+            <Ic>
+              < AiOutlineArrowLeft />
+            </Ic>
+            <a href="#">back to login</a>
           </nav>
         </div>
       
